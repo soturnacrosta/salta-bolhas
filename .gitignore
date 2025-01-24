@@ -1,0 +1,14 @@
+# Unity
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Tt]arget/
+.vscode/
+.idea/
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Mac
+Desktop.ini
