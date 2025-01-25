@@ -1,8 +1,9 @@
 Salta-Bolhas (temporário)
 
-ISABELLE DA COSTA AVELLAR
-MAILTON OLINTO DE OLIVEIRA LEMOS
-MATHEUS ARGOLO LIRA
+Time Global Game Jam 2025:
+ISABELLE DA COSTA AVELLAR - Design e artes;
+MAILTON OLINTO DE OLIVEIRA LEMOS - Programação e Sound Design;
+MATHEUS ARGOLO LIRA - Programação, design e artes;
 
 Projeto
 O jogo de plataforma 2D Salta-Bolhas (temporário) baseado na engine Unity está sendo desenvolvida no evento de caráter global Global Game Jam na sede da Unipê de João Pessoa, Paraíba. Reunindo desenvolvedores, designers e analistas em formação com o propósito de criar um jogo simples em até 48 horas.
@@ -19,7 +20,8 @@ O jogo tem como temática da Global Game Jam, BUBBLES, isso norteia todo o proje
 Desenvolvimento
 Salta-Bolhas está sendo desenvolvida pela equipe Matheus Argolo (desenvolvedor e design), Isabella Avellar (design) e Mailton Lemos (desenvolvedor) em ambiente Windows 10, engine Unity e IDE Visual Studio Code, linguagem C#. Seu versionamento está sendo feito em GitHub.
 Dia 1
-- Menu criado e funcional. Design agradável, leve e com cores harmônicas;
+- Menu criado e funcional.
+- Design para menu criado. Agradável, leve e com cores harmônicas;
 - Documentação iniciada;
 - Desenhos de sprites, cutscenes, ícones e capa feitos;
 - Cena criada;
@@ -32,7 +34,8 @@ Backlog:
 - Sistema de spawn e estouro de bolhas;
 - Soundtrack e soundeffect do jogo;
 - Cronômetro ao game manager;
-- Consertar fonte do menu.
+- Consertar fonte do menu;
+- Integrar menu ao jogo.
 Incrementos:
 - Soundtrack do menu feito;
 - SoundFX do personagem e das bolhas feitos através de samples de licença gratuita baixados da internet;
@@ -40,10 +43,19 @@ Incrementos:
 - Sistema de spawn e estouro de bolhas entregue e balanceado;
 - Cronômetro entregue;
 - Função Game Over entregue, faltando a tela gráfica;
-
+- Desenvolvimento da documentação;
+- Sprite base entregue.
+Evolução:
+- Agora o jogo é jogável;
+- O jogo possui SoundFX e trilha sonora;
+- O jogo possui fim.
   Dia 3
   Backlog:
   - SoundFX da tela de Game Over;
   - Soundtrack da tela de gameplay;
-  - 
+  - SoundFX de botões do menu;
+  - Terminar animações do player;
+  - Sprites e animações das bolhas;
+  - Tamanho e animação das bolhas.
+    
 
