@@ -30,4 +30,5 @@ Backlog:
 - Artes do herói;
 - Sistema de spawn e estouro de bolhas;
 - Soundtrack e soundeffect do jogo;
-- Cronômetro ao game manager.
+- Cronômetro ao game manager;
+- Consertar fonte do menu.
