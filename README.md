@@ -11,10 +11,11 @@ Requisitos
 O jogo tem como temática da Global Game Jam, BUBBLES, isso norteia todo o projeto. Para tal, as características de design e storytelling serão sobre um personagem principal e as bolhas do cenário. Como requisitos fundamentais temos:
 1.	Cronômetro para marcar a pontuação. Quanto mais tempo vivo, maior a pontuação;
 2.	Bolhas que nascem aleatoriamente e estouram ao serem tocadas.
-3.	As bolhas possuem tamanhos diferentes. De acordo com seu tamanho, seu tempo para ser estourada difere;
+3.	As bolhas possuem tamanhos diferentes. De acordo com seu tamanho, o tempo para ser estourada difere;
 4.	O “chão” do mapa é o limbo, ao tocá-lo será o Gamer Over.
 5.	O menu deve ser leve e com cores harmônicas;
-6.	O cenário deve ser leve e com cores harmônicas.
+6.	O cenário deve ser leve e com cores harmônicas;
+7.	O jogo deve incluir trilha sonora.
 Desenvolvimento
 Salta-Bolhas está sendo desenvolvida pela equipe Matheus Argolo (desenvolvedor e design), Isabella Avellar (design) e Mailton Lemos (desenvolvedor) em ambiente Windows 10, engine Unity e IDE Visual Studio Code, linguagem C#. Seu versionamento está sendo feito em GitHub.
 Dia 1
@@ -32,3 +33,17 @@ Backlog:
 - Soundtrack e soundeffect do jogo;
 - Cronômetro ao game manager;
 - Consertar fonte do menu.
+Incrementos:
+- Soundtrack do menu feito;
+- SoundFX do personagem e das bolhas feitos através de samples de licença gratuita baixados da internet;
+- Fonte do menu entregue;
+- Sistema de spawn e estouro de bolhas entregue e balanceado;
+- Cronômetro entregue;
+- Função Game Over entregue, faltando a tela gráfica;
+
+  Dia 3
+  Backlog:
+  - SoundFX da tela de Game Over;
+  - Soundtrack da tela de gameplay;
+  - 
+
