@@ -66,8 +66,6 @@ Evolução:
 - Desenhos das bolhas feitas e integradas ao jogo;
 - Correções de bugs;
 - Configuração do animator entregue;
-- Manual entregue;
+- Manual entregue com sua versão em inglês;
 - Animações do personagens entregue.
-
   
-
