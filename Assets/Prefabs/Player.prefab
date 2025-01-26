@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 2382917473921446553}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.009999752, y: -0.17000008, z: -2}
-  m_LocalScale: {x: 0.36470544, y: 0.36470544, z: 0.36470544}
+  m_LocalPosition: {x: -0.0066, y: -0.1809, z: -2}
+  m_LocalScale: {x: 0.2271769, y: 0.2271769, z: 0.2271769}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6684324608481544914}
@@ -290,6 +290,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 9
   jumpSound: {fileID: 8300000, guid: 208d075fa7470af46a82bcbdedd8dc3f, type: 3}
+  facadeAnimator: {fileID: 6786258629627339693}
 --- !u!82 &5687778841789438507
 AudioSource:
   m_ObjectHideFlags: 0

@@ -129,10 +129,10 @@ TextureImporter:
       name: charbase1_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 18
-        width: 274
-        height: 113
+        x: 30
+        y: 41
+        width: 461
+        height: 274
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      charbase1_0: -6424395910239736260
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

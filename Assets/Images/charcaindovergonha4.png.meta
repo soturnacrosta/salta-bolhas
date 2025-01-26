@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0debcfd097a1ff54a96b75a165870e83
+guid: 2223e1350ff85cb48963433934deac79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1417934009261945955
-    second: charbase0_0
+      213: 8648462090827960483
+    second: charcaindovergonha4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: charbase0_0
+      name: charcaindovergonha4_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 45
-        width: 429
-        height: 280
+        x: 27
+        y: 40
+        width: 461
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 364f00908738da310800000000000000
-      internalID: 1417934009261945955
+      spriteID: 3a09b393372850870800000000000000
+      internalID: 8648462090827960483
       vertices: []
       indices: 
       edges: []
