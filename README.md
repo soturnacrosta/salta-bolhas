@@ -2,7 +2,7 @@ Salta-Bolhas (temporário)
 
 Time Global Game Jam 2025:
 ISABELLE DA COSTA AVELLAR - Design e artes;
-MAILTON OLINTO DE OLIVEIRA LEMOS - Programação e Sound Design;
+MAILTON OLINTO DE OLIVEIRA LEMOS - Programação, documentação e Sound Design;
 MATHEUS ARGOLO LIRA - Programação, design e artes;
 
 Projeto
@@ -57,5 +57,13 @@ Evolução:
   - Terminar animações do player;
   - Sprites e animações das bolhas;
   - Tamanho e animação das bolhas.
+  Incrementos:
+- SoundFX do Menu e Game Over entregues;
+- Soundtrack da Gameplay feita;
+- Menu agora funcional;
+- Desenhos e animações das bolhas feitas e integradas ao jogo;
+- Correções de bugs;
+- Configuração do animator entregue;
+- 
     
 
