@@ -63,8 +63,11 @@ Evolução:
 - SoundFX do Menu e Game Over entregues;
 - Soundtrack da Gameplay feita e integrada;
 - Menu agora funcional;
-- Desenhos e animações das bolhas feitas e integradas ao jogo;
+- Desenhos das bolhas feitas e integradas ao jogo;
 - Correções de bugs;
 - Configuração do animator entregue;
+- Manual entregue;
+- Animações do personagens entregue.
+
   
 
