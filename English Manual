@@ -1,0 +1,30 @@
+Salta-bolhas (Temporary)
+Global Game Jam 2025 Team
+ISABELLE DA COSTA AVELLAR - Design and Art
+MAILTON OLINTO DE OLIVEIRA LEMOS - Programming and Sound Design
+MATHEUS ARGOLO LIRA - Programming, Design, and Art
+
+Synopsis
+Gipito is a tadpole who fell asleep in the water and became easy prey for a hungry heron. While swimming to survive, he tumbled down a waterfall into the lake below. To help the tadpole, you'll need to jump on the bubbles in the waterfall's foam and reach the deep waters safely.
+
+Objective
+The goal of the game is to stay on the bubbles for as long as possible, jumping from one to another, without falling into the void.
+
+Controls
+
+Left Arrow: Move left
+Right Arrow: Move right
+Up Arrow: Jump
+
+Game Interface
+The game includes a menu screen with a button to start the game and another to exit.
+
+Gameplay
+The game features a scoring system based on a timer: the longer you stay without falling into the void, the higher your score. To achieve this, you must jump on bubbles that appear randomly on the map. These bubbles disappear over time and come in different sizes.
+
+Licenses and Legal Terms
+
+Art: Isabelle da Costa Avellar
+Art: Matheus Argolo Lira
+Soundtracks: Mailton Olinto de Oliveira Lemos
+Samples used are licensed for free commercial use.
