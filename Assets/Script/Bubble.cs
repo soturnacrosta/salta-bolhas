@@ -2,10 +2,18 @@ using UnityEngine;
 
 public class Bubble : MonoBehaviour
 {
+    [Header("Audio Settings")]
+    public AudioClip popSound; // Som do estouro
+    private AudioSource audioSource; // Fonte de áudio
     public delegate void BubbleDestroyed();
     public BubbleDestroyed OnBubbleDestroyed;
 
     private float lifetime;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>(); // Referência ao AudioSource
+    }
 
     public void Initialize(float size)
     {
@@ -32,7 +40,16 @@ public class Bubble : MonoBehaviour
 
     private void DestroyBubble()
     {
+        PlayPopSound(); // Reproduz o som de estouro antes de destruir
         OnBubbleDestroyed?.Invoke(); // Notifica o spawner que a bolha foi destruída
-        Destroy(gameObject);
+        Destroy(gameObject, 0.1f); // Adiciona um pequeno delay para reproduzir o som
+    }
+
+    private void PlayPopSound()
+    {
+        if (audioSource != null && popSound != null)
+        {
+            audioSource.PlayOneShot(popSound); // Reproduz o som do estouro
+        }
     }
 }

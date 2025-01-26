@@ -6,12 +6,17 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f; // Velocidade de movimento
     public float jumpForce = 10f; // Força do pulo
 
+    [Header("Audio Settings")]
+    public AudioClip jumpSound; // Som do salto
+    private AudioSource audioSource; // Fonte de áudio
+
     private Rigidbody2D rb;
     private bool isGrounded = false; // Estado do jogador (se está no chão)
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // Referência ao Rigidbody2D do jogador
+        audioSource = GetComponent<AudioSource>(); // Referência ao AudioSource do jogador
     }
 
     void Update()
@@ -24,6 +29,7 @@ public class PlayerController : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            PlayJumpSound(); // Reproduz o som do salto
         }
 
         // Virar o personagem para a direção que ele está andando
@@ -52,6 +58,14 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Bubble"))
         {
             isGrounded = false;
+        }
+    }
+
+    private void PlayJumpSound()
+    {
+        if (audioSource != null && jumpSound != null)
+        {
+            audioSource.PlayOneShot(jumpSound); // Reproduz o som do salto
         }
     }
 }
