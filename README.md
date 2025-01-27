@@ -13,9 +13,9 @@ Gipito é um girino que dormiu na água e virou alvo fácil para uma garça fami
 Requisitos
 O jogo tem como temática da Global Game Jam, BUBBLES, isso norteia todo o projeto. Para tal, as características de design e storytelling serão sobre um personagem principal e as bolhas do cenário. Como requisitos fundamentais temos:
 1.	Cronômetro para marcar a pontuação. Quanto mais tempo vivo, maior a pontuação;
-2.	Bolhas que nascem aleatoriamente e estouram ao serem tocadas.
+2.	Bolhas que nascem aleatoriamente e estouram ao serem tocadas;
 3.	As bolhas possuem tamanhos diferentes. De acordo com seu tamanho, o tempo para ser estourada difere;
-4.	O “chão” do mapa é o limbo, ao tocá-lo será o Gamer Over.
+4.	O “chão” do mapa é o limbo, ao tocá-lo será o Gamer Over;
 5.	O menu deve ser leve e com cores harmônicas;
 6.	O cenário deve ser leve e com cores harmônicas;
 7.	O jogo deve incluir trilha sonora.
@@ -25,9 +25,9 @@ Dia 1
 - Menu criado e funcional.
 - Design para menu criado. Agradável, leve e com cores harmônicas;
 - Documentação iniciada;
-- Desenhos de sprites, cutscenes, ícones e capa feitos;
+- Desenhos conceituais de sprites, cutscenes, ícones e capas feitos;
 - Cena criada;
-- Protagonista criado e funcional;
+- Herói criado e funcional;
 - Função limbo criado e funcional;
 - Função Gamer Over criado.
 Dia 2
@@ -46,7 +46,8 @@ Incrementos:
 - Cronômetro entregue;
 - Função Game Over entregue, faltando a tela gráfica;
 - Desenvolvimento da documentação;
-- Sprite base entregue.
+- Desenhos conceituais da sinopse entregue;
+- Sprite base do herói entregue.
 Evolução:
 - Agora o jogo é jogável;
 - O jogo possui SoundFX e trilha sonora;
@@ -67,12 +68,14 @@ Incrementos:
 - Correções de bugs;
 - Configuração do animator entregue;
 - Manual entregue com sua versão em inglês;
-- Animações do personagens entregue.
+- Sinopse do jogo desenvolvido;
+- Animações e sprites do herói entregue.
 Evolução:
 - O jogo agora possui tela de menu funcional;
 - Possui trilha sonora própria;
 - Efeitos visuais foram implementados e corrigidos;
-- O jogo agora possui manual em português e inglês.
+- O jogo agora possui manual em português e inglês;
+- Possui backstory.
 Dia 4
 Backlog:
 - Animações das bolhas;
