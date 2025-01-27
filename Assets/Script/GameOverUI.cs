@@ -13,7 +13,7 @@ public class GameOverUI : MonoBehaviour
     private void Start()
     {
         // Certifique-se de que a tela de Game Over está oculta no início
-        gameOverPanel.SetActive(false);
+        HideGameOver();
     }
 
     // Exibe a tela de Game Over
@@ -36,6 +36,25 @@ public class GameOverUI : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    // Oculta o painel de Game Over
+    public void HideGameOver()
+    {
+        // Certifique-se de que o painel de Game Over está desativado
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
+
+        // Reativa o Canvas da pontuação
+        if (scoreCanvas != null)
+        {
+            scoreCanvas.SetActive(true);
+        }
+
+        // Restaura o tempo do jogo
+        Time.timeScale = 1f;
+    }
+
     // Reinicia o jogo
     public void RetryGame()
     {
@@ -53,6 +72,6 @@ public class GameOverUI : MonoBehaviour
         Time.timeScale = 1f;
 
         // Carrega a cena do menu principal
-        SceneManager.LoadScene("MenuScene"); // Substitua "MenuScene" pelo nome exato da cena do menu
+        SceneManager.LoadScene("Menu"); // Substitua "MenuScene" pelo nome exato da cena do menu
     }
 }

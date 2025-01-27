@@ -169,7 +169,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0.8352941, b: 0.8476855, a: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -265,6 +265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popSound: {fileID: 8300000, guid: ea5791443dd25f443be7cf45f775063d, type: 3}
+  facadeObject: {fileID: 5237277615635770279}
+  normalSprite: {fileID: -8252883110764542360, guid: 7cfd6a7029bea2c429419104b40daa15, type: 3}
+  playerOnBubbleSprite: {fileID: -2461202315824344766, guid: 57648d78b9ea547439bd0f1f7d8f4ac5, type: 3}
+  deformSprite: {fileID: -1919809821928236160, guid: c1ff10ab0a6fd6e4daf6027a7b56e4f1, type: 3}
+  popSprite: {fileID: -618056446928427383, guid: 78f3f9b4879038d42b06600dc90c4c17, type: 3}
 --- !u!82 &957681658230928497
 AudioSource:
   m_ObjectHideFlags: 0

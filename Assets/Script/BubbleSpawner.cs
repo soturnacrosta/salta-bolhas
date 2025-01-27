@@ -18,17 +18,15 @@ public class BubbleSpawner : MonoBehaviour
     public float minBubbleDistance = 1.5f; // Distância mínima entre as bolhas
 
     [Header("UI Elements")]
-    public TextMeshProUGUI scoreText; // Referência ao TextMeshPro para pontuação
+    
 
     private float timer; // Controlador de tempo para novas bolhas
     private List<GameObject> activeBubbles = new List<GameObject>(); // Lista de bolhas ativas
     private GameObject player; // Referência ao jogador
-    private int score = 0; // Pontuação do jogador
 
     void Start()
     {
-        // Inicializa a pontuação na interface
-        UpdateScoreText();
+     
 
         // Gera as bolhas iniciais e o jogador assim que o jogo começa
         SpawnInitialSetup();
@@ -111,32 +109,31 @@ public class BubbleSpawner : MonoBehaviour
                 bubbleScript.MakeGhost();
             }
 
-            // Callback para pontuação ao destruir a bolha
+            // Callback para eventos relacionados à bolha
             bubbleScript.OnBubbleDestroyed = () =>
             {
                 activeBubbles.Remove(bubble);
-                IncreaseScore(); // Incrementa a pontuação ao destruir a bolha
+
+                // Incrementa a pontuação no GameManager
+                GameManager.Instance.AddScore(10);
 
                 // Garante que sempre há bolhas ao redor do jogador
                 if (activeBubbles.Count < minActiveBubbles)
                 {
                     SpawnBubble();
                 }
+
+                // Verifica se não há bolhas restantes
+                if (activeBubbles.Count == 0)
+                {
+                    GameManager.Instance.GameOver(); // Chama o Game Over
+                }
             };
         }
     }
 
-    void IncreaseScore()
-    {
-        score += 10; // Incrementa a pontuação em 10
-        UpdateScoreText(); // Atualiza a interface
-    }
 
-    void UpdateScoreText()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + score; // Exibe a pontuação no TextMeshPro
-        }
-    }
+ 
+
+
 }

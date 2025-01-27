@@ -1,9 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
+    [Header("UI Elements")]
+    public TextMeshProUGUI scoreText; // Texto da pontuação no jogo
 
     private bool isGameOver = false;
 
@@ -13,16 +17,24 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        // Garantir que exista apenas um GameManager na cena
+        // Configura a instância do GameManager
         if (Instance == null)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            Instance = this; // Define a instância atual
         }
-        else
+        else if (Instance != this)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // Garante que apenas uma instância exista
         }
+    }
+
+    private void Start()
+    {
+        // Carrega o recorde salvo
+        highScore = PlayerPrefs.GetInt("HighScore", 0);
+
+        // Atualiza a pontuação inicial na interface
+        UpdateScoreText();
     }
 
     private void Update()
@@ -31,6 +43,24 @@ public class GameManager : MonoBehaviour
         if (!isGameOver)
         {
             currentScore += Mathf.FloorToInt(Time.deltaTime * scoreIncrementRate * 100); // Incremento proporcional ao tempo
+            UpdateScoreText();
+        }
+    }
+
+    public void AddScore(int amount)
+    {
+        if (!isGameOver)
+        {
+            currentScore += amount;
+            UpdateScoreText();
+        }
+    }
+
+    private void UpdateScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + currentScore; // Atualiza o texto da pontuação
         }
     }
 
@@ -46,6 +76,8 @@ public class GameManager : MonoBehaviour
             if (currentScore > highScore)
             {
                 highScore = currentScore;
+                PlayerPrefs.SetInt("HighScore", highScore); // Salva o recorde de pontuação
+                PlayerPrefs.Save();
                 Debug.Log("Novo Recorde: " + highScore);
             }
 
@@ -53,7 +85,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("Pontuação Final: " + currentScore);
 
             // Exibe a tela de Game Over
-            GameOverUI gameOverUI = Object.FindFirstObjectByType<GameOverUI>();
+            GameOverUI gameOverUI = FindGameOverUI();
             if (gameOverUI != null)
             {
                 gameOverUI.ShowGameOver(currentScore, highScore);
@@ -66,21 +98,29 @@ public class GameManager : MonoBehaviour
     }
 
     // Reinicia o jogo
-    private void RestartGame()
+    public void RestartGame()
     {
-        // Reinicia a cena e reseta a pontuação atual
+        // Reinicia a pontuação atual
         currentScore = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         isGameOver = false;
+
+        // Reinicia a cena atual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // Método para acessar a pontuação atual (opcional)
+    private GameOverUI FindGameOverUI()
+    {
+        // Encontra a instância de GameOverUI na cena
+        return Object.FindFirstObjectByType<GameOverUI>();
+    }
+
+    // Método para acessar a pontuação atual
     public int GetCurrentScore()
     {
         return currentScore;
     }
 
-    // Método para acessar o recorde de pontuação (opcional)
+    // Método para acessar o recorde de pontuação
     public int GetHighScore()
     {
         return highScore;
