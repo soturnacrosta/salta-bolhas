@@ -7,8 +7,9 @@ public class GameManager : MonoBehaviour
 
     private bool isGameOver = false;
 
-    private float currentScore = 0f; // Pontuação atual
-    private float highScore = 0f; // Recorde de pontuação
+    private int currentScore = 0; // Pontuação atual como número inteiro
+    private int highScore = 0; // Recorde de pontuação
+    private float scoreIncrementRate = 0.5f; // Fator de escala para a pontuação
 
     private void Awake()
     {
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
         // Atualiza a pontuação enquanto o jogo está ativo
         if (!isGameOver)
         {
-            currentScore += Time.deltaTime; // Incrementa com base no tempo decorrido
+            currentScore += Mathf.FloorToInt(Time.deltaTime * scoreIncrementRate * 100); // Incremento proporcional ao tempo
         }
     }
 
@@ -45,14 +46,22 @@ public class GameManager : MonoBehaviour
             if (currentScore > highScore)
             {
                 highScore = currentScore;
-                Debug.Log("Novo Recorde: " + highScore.ToString("F2"));
+                Debug.Log("Novo Recorde: " + highScore);
             }
 
             // Mostra a pontuação final
-            Debug.Log("Pontuação Final: " + currentScore.ToString("F2"));
+            Debug.Log("Pontuação Final: " + currentScore);
 
-            // Reinicia o jogo após 2 segundos
-            Invoke("RestartGame", 2f);
+            // Exibe a tela de Game Over
+            GameOverUI gameOverUI = Object.FindFirstObjectByType<GameOverUI>();
+            if (gameOverUI != null)
+            {
+                gameOverUI.ShowGameOver(currentScore, highScore);
+            }
+            else
+            {
+                Debug.LogError("GameOverUI não encontrado na cena!");
+            }
         }
     }
 
@@ -60,19 +69,19 @@ public class GameManager : MonoBehaviour
     private void RestartGame()
     {
         // Reinicia a cena e reseta a pontuação atual
-        currentScore = 0f;
+        currentScore = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         isGameOver = false;
     }
 
     // Método para acessar a pontuação atual (opcional)
-    public float GetCurrentScore()
+    public int GetCurrentScore()
     {
         return currentScore;
     }
 
     // Método para acessar o recorde de pontuação (opcional)
-    public float GetHighScore()
+    public int GetHighScore()
     {
         return highScore;
     }
