@@ -86,4 +86,5 @@ Incrementos:
 - Correção de bugs;
 - Animação das bolhas entregues;
 - Tela de Game Over funcional;
+- Sistema de pontuação funcional entregue;
 - Capa oficial entregue.
