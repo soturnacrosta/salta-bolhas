@@ -80,4 +80,10 @@ Dia 4
 Backlog:
 - Animações das bolhas;
 - Tela de Game Over com sua soundtrack;
+- Correção de bugs
 - Documentação em inglês.
+Incrementos:
+- Correção de bugs;
+- Animação das bolhas entregues;
+- Tela de Game Over funcional;
+- Capa oficial entregue.
