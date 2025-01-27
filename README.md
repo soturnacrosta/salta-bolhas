@@ -51,21 +51,30 @@ Evolução:
 - Agora o jogo é jogável;
 - O jogo possui SoundFX e trilha sonora;
 - O jogo possui fim.
-  Dia 3
-  Backlog:
-  - SoundFX da tela de Game Over;
-  - Soundtrack da tela de gameplay;
-  - SoundFX de botões do menu;
-  - Terminar animações do player;
-  - Sprites e animações das bolhas;
-  - Tamanho e animação das bolhas.
-  Incrementos:
+Dia 3
+Backlog:
+- SoundFX da tela de Game Over;
+- Soundtrack da tela de gameplay;
+- SoundFX de botões do menu;
+- Terminar animações do player;
+- Sprites e animações das bolhas;
+- Tamanhos e animações das bolhas.
+Incrementos:
 - SoundFX do Menu e Game Over entregues;
-- Soundtrack da Gameplay feita e integrada;
+- Soundtrack da gameplay feita e integrada;
 - Menu agora funcional;
 - Desenhos das bolhas feitas e integradas ao jogo;
 - Correções de bugs;
 - Configuração do animator entregue;
 - Manual entregue com sua versão em inglês;
 - Animações do personagens entregue.
-  
+Evolução:
+- O jogo agora possui tela de menu funcional;
+- Possui trilha sonora própria;
+- Efeitos visuais foram implementados e corrigidos;
+- O jogo agora possui manual em português e inglês.
+Dia 4
+Backlog:
+- Animações das bolhas;
+- Tela de Game Over com sua soundtrack;
+- Documentação em inglês.
