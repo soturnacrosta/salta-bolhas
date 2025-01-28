@@ -1,0 +1,117 @@
+Salta-Bolhas
+
+Global Game Jam 2025 Team:
+
+ISABELLE DA COSTA AVELLAR - Design and Art
+MAILTON OLINTO DE OLIVEIRA LEMOS - Programming, Documentation, and Sound Design
+MATHEUS ARGOLO LIRA - Programming, Design, and Art
+Project
+The 2D platformer game Salta-Bolhas, developed using the Unity engine, is being created during the global event Global Game Jam at the Unipê campus in João Pessoa, Paraíba. The event brings together developers, designers, and analysts-in-training to create a simple game within 48 hours.
+
+With the theme BUBBLES, the game features gameplay where the main character must survive as long as possible by jumping from bubble to bubble without falling into the void. The bubbles vary in size, and their popping time changes upon being touched.
+
+Synopsis
+Gipito is a tadpole who fell asleep in the water and became an easy target for a hungry heron. While swimming for survival, he was swept down a waterfall into a lake. To help the tadpole, you must jump on the bubbles in the waterfall’s foam and safely reach the deep waters.
+
+Requirements
+The game’s theme, BUBBLES, guides the entire project. Accordingly, the design and storytelling revolve around the main character and the bubbles in the environment. The fundamental requirements are:
+
+A timer to track the score—the longer you survive, the higher your score.
+Bubbles spawn randomly and pop when touched.
+Bubbles come in different sizes, with their popping time varying by size.
+The map’s “floor” is the void—touching it results in Game Over.
+The menu must be lightweight and feature harmonious colors.
+The environment must be lightweight and feature harmonious colors.
+The game must include a soundtrack.
+Development
+Salta-Bolhas is being developed by the team Matheus Argolo (developer and designer), Isabella Avellar (designer), and Mailton Lemos (developer) in a Windows 10 environment using the Unity engine, Visual Studio Code IDE, and C# language. Version control is managed on GitHub. Documentation is compact due to time constraints.
+
+Day 1
+Progress:
+
+Functional menu created.
+Menu design completed: pleasant, lightweight, and featuring harmonious colors.
+Documentation started.
+Concept art for sprites, cutscenes, icons, and covers completed.
+Scene created.
+Hero created and functional.
+Void function implemented and functional.
+Game Over function implemented.
+Day 2
+Backlog:
+
+Hero art.
+Bubble spawn and pop system.
+Game soundtrack and sound effects.
+Timer for the game manager.
+Fix menu font.
+Integrate menu with gameplay.
+Progress:
+
+Menu soundtrack completed.
+Character and bubble sound effects created using free-licensed samples downloaded online.
+Menu font fixed.
+Bubble spawn and pop system completed and balanced.
+Timer implemented.
+Game Over function implemented (missing graphical screen).
+Documentation development.
+Synopsis concept art completed.
+Base hero sprite completed.
+Evolution:
+
+The game is now playable.
+The game has sound effects and a soundtrack.
+The game now has an end.
+Day 3
+Backlog:
+
+Game Over screen sound effects.
+Gameplay soundtrack.
+Menu button sound effects.
+Finish player animations.
+Bubble sprites and animations.
+Bubble sizes and animations.
+Progress:
+
+Menu and Game Over sound effects completed.
+Gameplay soundtrack created and integrated.
+Fully functional menu.
+Bubble designs created and integrated into the game.
+Bug fixes.
+Animator setup completed.
+Manual completed with an English version.
+Game synopsis developed.
+Hero animations and sprites completed.
+Evolution:
+
+The game now features a fully functional menu.
+Includes its own soundtrack.
+Visual effects implemented and fixed.
+The game includes a manual in both Portuguese and English.
+Backstory added.
+Day 4
+Backlog:
+
+Bubble animations.
+Game Over screen with soundtrack.
+Bug fixes.
+English documentation.
+Progress:
+
+Bug fixes completed.
+Bubble animations completed.
+Functional Game Over screen implemented.
+Score system implemented.
+Game trailer completed.
+English version of the documentation delivered.
+Official cover delivered.
+Evolution:
+
+The game is functional and delivered.
+Review
+The game was delivered in a functional state. Its mechanics work as expected, and the game has a beginning, middle, and end. The soundtracks and sound effects provide immersion, while the visuals are clean, with a harmonious and lightweight design as requested. The documentation and manual in both Portuguese and English bring the company and players closer to the project.
+
+Retrospective
+The team for this project was formed on the spot, and working on it brought us closer together. Each member contributed their skills and expertise when needed, leaving their mark on the project. A Game Jam is time-limited, but it still allows for impressive results.
+
+All requirements were delivered, except for one item in Day 4’s backlog: the Game Over screen soundtrack wasn’t added due to time constraints. Even so, the result was completely satisfying for everyone, and we left the experience feeling accomplished.
