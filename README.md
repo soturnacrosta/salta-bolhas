@@ -1,4 +1,4 @@
-Salta-Bolhas
+Salta Bolhas
 
 Time Global Game Jam 2025:
 ISABELLE DA COSTA AVELLAR - Design e artes;
@@ -6,7 +6,7 @@ MAILTON OLINTO DE OLIVEIRA LEMOS - Programação, documentação e sound design;
 MATHEUS ARGOLO LIRA - Programação, design e artes;
 
 Projeto
-O jogo de plataforma 2D Salta-Bolhas baseado na engine Unity está sendo desenvolvida no evento de caráter global Global Game Jam na sede da Unipê de João Pessoa, Paraíba. Reunindo desenvolvedores, designers e analistas em formação com o propósito de criar um jogo simples em até 48 horas.
+O jogo de plataforma 2D Salta Bolhas baseado na engine Unity está sendo desenvolvida no evento de caráter global Global Game Jam na sede da Unipê de João Pessoa, Paraíba. Reunindo desenvolvedores, designers e analistas em formação com o propósito de criar um jogo simples em até 48 horas.
 Com o tema BUBBLES, o jogo em questão tem como jogabilidade um personagem principal que deve manter-se o maior tempo possível pulando de bolha em bolha sem que caia no limbo. Essas bolhas têm tamanho variado e seu tempo para estourar quando tocado é variado.
 Sinopse
 Gipito é um girino que dormiu na água e virou alvo fácil para uma garça faminta, ao nadar para sobreviver ele caiu de uma queda d’água no lago. Para ajudar o girino você precisará pular nas bolhas da espuma da cachoeira e conseguir chegar em segurança nas águas fundas.
@@ -20,7 +20,7 @@ O jogo tem como temática da Global Game Jam, BUBBLES, isso norteia todo o proje
 6.	O cenário deve ser leve e com cores harmônicas;
 7.	O jogo deve incluir trilha sonora.
 Desenvolvimento
-Salta-Bolhas está sendo desenvolvida pela equipe Matheus Argolo (desenvolvedor e design), Isabella Avellar (design) e Mailton Lemos (desenvolvedor) em ambiente Windows 10, engine Unity e IDE Visual Studio Code, linguagem C#. Seu versionamento está sendo feito em GitHub. A documentação está sendo feita de forma compacta devido aos limites de tempo.
+Salta Bolhas está sendo desenvolvida pela equipe Matheus Argolo (desenvolvedor e design), Isabella Avellar (design) e Mailton Lemos (desenvolvedor) em ambiente Windows 10, engine Unity e IDE Visual Studio Code, linguagem C#. Seu versionamento está sendo feito em GitHub. A documentação está sendo feita de forma compacta devido aos limites de tempo.
 Dia 1
 - Menu criado e funcional.
 - Design para menu criado. Agradável, leve e com cores harmônicas;
