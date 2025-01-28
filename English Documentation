@@ -1,4 +1,4 @@
-Salta-Bolhas
+Salta Bolhas
 
 Global Game Jam 2025 Team:
 
@@ -6,7 +6,7 @@ ISABELLE DA COSTA AVELLAR - Design and Art
 MAILTON OLINTO DE OLIVEIRA LEMOS - Programming, Documentation, and Sound Design
 MATHEUS ARGOLO LIRA - Programming, Design, and Art
 Project
-The 2D platformer game Salta-Bolhas, developed using the Unity engine, is being created during the global event Global Game Jam at the Unipê campus in João Pessoa, Paraíba. The event brings together developers, designers, and analysts-in-training to create a simple game within 48 hours.
+The 2D platformer game Salta Bolhas, developed using the Unity engine, is being created during the global event Global Game Jam at the Unipê campus in João Pessoa, Paraíba. The event brings together developers, designers, and analysts-in-training to create a simple game within 48 hours.
 
 With the theme BUBBLES, the game features gameplay where the main character must survive as long as possible by jumping from bubble to bubble without falling into the void. The bubbles vary in size, and their popping time changes upon being touched.
 
@@ -24,7 +24,7 @@ The menu must be lightweight and feature harmonious colors.
 The environment must be lightweight and feature harmonious colors.
 The game must include a soundtrack.
 Development
-Salta-Bolhas is being developed by the team Matheus Argolo (developer and designer), Isabella Avellar (designer), and Mailton Lemos (developer) in a Windows 10 environment using the Unity engine, Visual Studio Code IDE, and C# language. Version control is managed on GitHub. Documentation is compact due to time constraints.
+Salta Bolhas is being developed by the team Matheus Argolo (developer and designer), Isabella Avellar (designer), and Mailton Lemos (developer) in a Windows 10 environment using the Unity engine, Visual Studio Code IDE, and C# language. Version control is managed on GitHub. Documentation is compact due to time constraints.
 
 Day 1
 Progress:
